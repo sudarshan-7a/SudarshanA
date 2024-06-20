@@ -1,1 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300&family=Noto+Serif+Display:ital,wght@0,211;1,211&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Inria Serif", serif;
+}
+.hero{
+    background-color: #fff3f9;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.hexa img{
+    width: 300px;
+    grid-row: 1/1;
+    grid-column: 1/1;
+}
+.hero .hexa{
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1 1;
+    grid-template-rows:1 1 ;
+}
+.hero .hexa h1{
+    position: relative;
+    font-weight: 400;
+    font-size: 100px;
+    grid-row: 1/1;
+    grid-column: 1/1;
+    text-align: center;
+    align-self: center;
+    color: #474747;
 
+}
+.hero .myname{
+    align-self: center;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.myname h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-align: center;
+    color: #474747;
+    
+}
+.mynamediv p{
+    text-align: center;
+    color: #626262;
+    font-size: larger;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.intro img{
+    width: 10rem;
+    border-radius: 50%;
+    margin: 2rem;
+}
+.intro h2{color: #474747;
+    font-size: 40px;
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+}
+.intro p{
+    color: #626262;
+    font-size: larger;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-weight: 400;
+
+}
+.mysksec{
+    margin-top:5% ;
+    background-color: #fff7fb;
+    display: flex;
+    align-items: center;
+    
+}
+.mysk{
+    padding: 3%;
+    font-size: 3.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #474747;
+    
+    margin: auto;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills .dev{
+    margin-left:15%;
+    margin-top: 2%;
+}
+.skills .dev img{
+    border-radius: 5%;
+    width: 250px;
+    float: left;
+    margin-right: 5%;
+}
+.skills .dev h3{ 
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: 450;
+    color: #474747;
+   
+}
+.skills .dev p{ 
+    margin-right: 17%;
+    margin-top: 3%;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 330;
+    color: #626262;
+}
+.skills .cre{
+    margin-left:15%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+
+}
+
+.skills .cre img{
+    border-radius: 5%;
+    width: 250px;
+    float: left;
+    margin-right: 5%;
+}
+.skills .cre h3{ 
+
+    margin-top: 3%;
+    font-size: 25px;
+    font-weight: 450;
+    color: #474747;
+    
+   
+}
+.skills .cre p{ 
+    margin-right: 17%;
+    margin-top: 3%;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 330;
+    color: #626262;
+}
+.conme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.conme h2{color: #474747;
+    font-family: "Source Serif 4", serif;;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.conme h3{color: #575757;
+    font-family: "Source Serif 4", serif;
+    font-size: x-large;
+    font-weight: 400;
+    margin: 0 5%;
+}
+.conme p{
+    margin: 0 5%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: #626262;
+    font-family: "Source Serif 4", serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+.conme a{
+    background-color: #bababa;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px 10px;
+    border-radius: 35px;
+    color: #fff;
+    text-decoration: none;
+
+}
+.conme a:hover{
+    background-color: #e0c5c5;
+}
+.footer{
+    background-color:#fff3f9 ;
+    height: 25vh;
+}
+.socme{
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+.socme a{ text-decoration: none;
+    margin: 35px 0;
+    font-size: x-small;
+    color: #743333;
+    padding: 3px;
+}
+
+.socme a:hover{
+    color: #ffffff;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.copw{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 7px;
+    font-weight: 200;
+    margin-right: 10px;
+    color: #575757;
+}
+
+
+@media (max-width:899px) {
+    .skills .dev p{ 
+        margin-right: 7%;
+    }
+    .skills .cre p{ 
+        margin-right: 7%;
+    }
+    .skills .dev{
+        margin-left:10%;
+    }
+    .skills .cre{
+        margin-left:10%;
+    
+    }
+    
+}
+@media (max-width:769px) {
+        .hero{
+            height: 90vh;
+    }
+    
+}
+
+
+@media (max-width:714px) {
+    .mynamediv{
+        position: relative;
+        bottom: 3rem;
+    }
+    .intro p{
+        font-size: large;
+    }
+    
+ 
+    .hero .hexa{
+        margin-top: 2rem;
+    }
+    
+}
+@media (max-width:620px) {
+    .mysk{
+        padding: 10% 0;
+    }
+}
+@media (max-width:468px) {
+    
+
+    .skills .dev img{
+        width: 20rem;
+        
+    }
+    .skills .dev h3{
+        padding-top: 20px;
+        text-align: center;
+        clear: left;
+        font-size: xx-large;
+        margin-right: 20px;
+    }
+    .skills .dev p{
+        margin: 20px 10px;
+        margin-right: 20px;
+        padding:0 10px;
+        
+        
+    }
+    .skills .cre img{
+        width: 20rem;
+        
+    }
+    .skills .cre h3{
+        text-align: center;
+        top: 20px;
+        clear: left;
+        padding-top:20px;
+        font-size: xx-large;
+    }
+    .skills .cre p{
+        margin: 20px 0;
+        margin-right:20px ;
+        padding:0 10px;
+    }
+}
