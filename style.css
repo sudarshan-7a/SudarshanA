@@ -103,8 +103,8 @@
 }
 .skills .dev{
     margin-left:15%;
-    margin-top: 2%;
-    margin-bottom: 5%;
+     margin-top: 2%;
+     margin-bottom: 5%;
 }
 .skills .dev img{
     border-radius: 5%;
@@ -207,8 +207,8 @@
         margin-right: 7%;
     }
     .skills .dev{
-        margin-left:10%;
-    } 
+       margin-left:10%;
+    }
 }
 @media (max-width:769px) {
         .hero{
