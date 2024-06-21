@@ -104,6 +104,7 @@
 .skills .dev{
     margin-left:15%;
     margin-top: 2%;
+    margin-bottom: 5%;
 }
 .skills .dev img{
     border-radius: 5%;
@@ -119,36 +120,6 @@
    
 }
 .skills .dev p{ 
-    margin-right: 17%;
-    margin-top: 3%;
-    font-size: 17px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 330;
-    color: #626262;
-}
-.skills .cre{
-    margin-left:15%;
-    margin-top: 6%;
-    margin-bottom: 5%;
-
-}
-
-.skills .cre img{
-    border-radius: 5%;
-    width: 250px;
-    float: left;
-    margin-right: 5%;
-}
-.skills .cre h3{ 
-
-    margin-top: 3%;
-    font-size: 25px;
-    font-weight: 450;
-    color: #474747;
-    
-   
-}
-.skills .cre p{ 
     margin-right: 17%;
     margin-top: 3%;
     font-size: 17px;
@@ -235,17 +206,9 @@
     .skills .dev p{ 
         margin-right: 7%;
     }
-    .skills .cre p{ 
-        margin-right: 7%;
-    }
     .skills .dev{
         margin-left:10%;
-    }
-    .skills .cre{
-        margin-left:10%;
-    
-    }
-    
+    } 
 }
 @media (max-width:769px) {
         .hero{
@@ -295,21 +258,5 @@
         padding:0 10px;
         
         
-    }
-    .skills .cre img{
-        width: 20rem;
-        
-    }
-    .skills .cre h3{
-        text-align: center;
-        top: 20px;
-        clear: left;
-        padding-top:20px;
-        font-size: xx-large;
-    }
-    .skills .cre p{
-        margin: 20px 0;
-        margin-right:20px ;
-        padding:0 10px;
     }
 }
